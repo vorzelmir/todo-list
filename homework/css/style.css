@@ -1,0 +1,46 @@
+.mbox {
+  max-width: 900px;
+  margin:0 auto;
+}
+
+.list {
+  padding-left: 0;
+  width: 500px;
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-right: 80px;
+  min-height: 21px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-text {
+  display: block;
+  cursor: pointer;
+  line-height: 21px;
+}
+
+.done {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.item-remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 21px;
+}
+
+.wrap {
+  margin: 10px auto;
+}
+
+.select {
+  font-weight: 600;
+  color: red;
+}
